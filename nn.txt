@@ -1,0 +1,146 @@
+training results for model: nn, selector function: f_classif, percentile: 1
+info: 0
+selected features: [ 54  96 293 351 409]
+hyperparameters: {'activation': 'tanh', 'batch_size': 50, 'hidden_layer_sizes': (136, 136), 'max_iter': 2500}
+scores: Scores(balanced_accuracy=0.6261904761904762, precision=0.3, recall=0.3, f1=0.3, roc_auc=0.6261904761904762)
+
+info: 1
+selected features: [ 54  96 293 351 409]
+hyperparameters: {'activation': 'tanh', 'batch_size': 100, 'hidden_layer_sizes': (45, 45), 'max_iter': 2500}
+scores: Scores(balanced_accuracy=0.5295918367346939, precision=0.14285714285714285, recall=0.1, f1=0.11764705882352941, roc_auc=0.5295918367346939)
+
+info: 2
+selected features: [ 54  96 122 293 409]
+hyperparameters: {'activation': 'tanh', 'batch_size': 100, 'hidden_layer_sizes': (136, 136), 'max_iter': 2500}
+scores: Scores(balanced_accuracy=0.5, precision=0.0, recall=0.0, f1=0.0, roc_auc=0.5)
+
+info: 3
+selected features: [ 54  96 293 350 351]
+hyperparameters: {'activation': 'relu', 'batch_size': 10, 'hidden_layer_sizes': (45, 45), 'max_iter': 2500}
+scores: Scores(balanced_accuracy=0.5772104607721046, precision=0.3333333333333333, recall=0.18181818181818182, f1=0.23529411764705885, roc_auc=0.5772104607721047)
+
+info: 4
+selected features: [ 19  54  96 293 409]
+hyperparameters: {'activation': 'tanh', 'batch_size': 50, 'hidden_layer_sizes': (45, 45), 'max_iter': 2500}
+scores: Scores(balanced_accuracy=0.5317559153175592, precision=0.2, recall=0.09090909090909091, f1=0.12500000000000003, roc_auc=0.5317559153175592)
+
+info: 5
+selected features: [ 54  96 351 354 355]
+hyperparameters: {'activation': 'relu', 'batch_size': 10, 'hidden_layer_sizes': (136, 136), 'max_iter': 2500}
+scores: Scores(balanced_accuracy=0.4794520547945205, precision=0.0, recall=0.0, f1=0.0, roc_auc=0.4794520547945206)
+
+info: 6
+selected features: [ 54  96 293 409 441]
+hyperparameters: {'activation': 'tanh', 'batch_size': 10, 'hidden_layer_sizes': (136, 136), 'max_iter': 2500}
+scores: Scores(balanced_accuracy=0.4897260273972603, precision=0.0, recall=0.0, f1=0.0, roc_auc=0.4897260273972603)
+
+info: 7
+selected features: [ 54  96 143 293 409]
+hyperparameters: {'activation': 'tanh', 'batch_size': 100, 'hidden_layer_sizes': (45, 45), 'max_iter': 2500}
+scores: Scores(balanced_accuracy=0.4863013698630137, precision=0.0, recall=0.0, f1=0.0, roc_auc=0.4863013698630137)
+
+info: 8
+selected features: [ 54  96 351 354 409]
+hyperparameters: {'activation': 'tanh', 'batch_size': 10, 'hidden_layer_sizes': (136, 136), 'max_iter': 2500}
+scores: Scores(balanced_accuracy=0.4623287671232877, precision=0.0, recall=0.0, f1=0.0, roc_auc=0.4623287671232877)
+
+info: 9
+selected features: [ 19  54  96 293 409]
+hyperparameters: {'activation': 'tanh', 'batch_size': 50, 'hidden_layer_sizes': (45, 45), 'max_iter': 2500}
+scores: Scores(balanced_accuracy=0.476027397260274, precision=0.0, recall=0.0, f1=0.0, roc_auc=0.476027397260274)
+
+score averages:
+average balanced accuracy: 0.515858430545319
+average precision: 0.09761904761904762
+average recall: 0.06727272727272728
+average f1 score: 0.07779411764705883
+average roc auc score: 0.515858430545319
+feature counts: Counter({54: 10, 96: 10, 293: 8, 409: 8, 351: 5, 19: 2, 354: 2, 122: 1, 350: 1, 355: 1, 441: 1, 143: 1})
+feature stability score: 0.8444444444444444
+
+
+training results for model: nn, selector function: mutual_info_classif, percentile: 1
+info: 0
+selected features: [ 39  64 387 454 459]
+hyperparameters: {'activation': 'relu', 'batch_size': 50, 'hidden_layer_sizes': (136, 136), 'max_iter': 2500}
+scores: Scores(balanced_accuracy=0.5363945578231293, precision=0.2, recall=0.1, f1=0.13333333333333333, roc_auc=0.5363945578231293)
+
+info: 1
+selected features: [ 39 337 455 457 461]
+hyperparameters: {'activation': 'relu', 'batch_size': 10, 'hidden_layer_sizes': (68, 68), 'max_iter': 2500}
+scores: Scores(balanced_accuracy=0.46938775510204084, precision=0.0, recall=0.0, f1=0.0, roc_auc=0.46938775510204084)
+
+info: 2
+selected features: [ 39 117 226 329 454]
+hyperparameters: {'activation': 'tanh', 'batch_size': 10, 'hidden_layer_sizes': (68, 68), 'max_iter': 2500}
+scores: Scores(balanced_accuracy=0.5295918367346939, precision=0.14285714285714285, recall=0.1, f1=0.11764705882352941, roc_auc=0.5295918367346939)
+
+info: 3
+selected features: [ 39  60  64 425 455]
+hyperparameters: {'activation': 'relu', 'batch_size': 50, 'hidden_layer_sizes': (136,), 'max_iter': 2500}
+scores: Scores(balanced_accuracy=0.5454545454545454, precision=1.0, recall=0.09090909090909091, f1=0.16666666666666669, roc_auc=0.5454545454545454)
+
+info: 4
+selected features: [ 51 121 243 425 461]
+hyperparameters: {'activation': 'relu', 'batch_size': 50, 'hidden_layer_sizes': (45, 45), 'max_iter': 2500}
+scores: Scores(balanced_accuracy=0.5703611457036114, precision=0.25, recall=0.18181818181818182, f1=0.2105263157894737, roc_auc=0.5703611457036115)
+
+info: 5
+selected features: [ 39 276 329 337 387]
+hyperparameters: {'activation': 'relu', 'batch_size': 100, 'hidden_layer_sizes': (68, 68), 'max_iter': 2500}
+scores: Scores(balanced_accuracy=0.5214819427148194, precision=0.125, recall=0.09090909090909091, f1=0.10526315789473685, roc_auc=0.5214819427148194)
+
+info: 6
+selected features: [276 387 425 455 461]
+hyperparameters: {'activation': 'relu', 'batch_size': 50, 'hidden_layer_sizes': (45, 45), 'max_iter': 2500}
+scores: Scores(balanced_accuracy=0.5806351183063512, precision=0.4, recall=0.18181818181818182, f1=0.25000000000000006, roc_auc=0.5806351183063513)
+
+info: 7
+selected features: [ 31  38 337 363 367]
+hyperparameters: {'activation': 'tanh', 'batch_size': 100, 'hidden_layer_sizes': (68, 68), 'max_iter': 2500}
+scores: Scores(balanced_accuracy=0.5, precision=0.0, recall=0.0, f1=0.0, roc_auc=0.5)
+
+info: 8
+selected features: [ 60 115 348 387 425]
+hyperparameters: {'activation': 'tanh', 'batch_size': 100, 'hidden_layer_sizes': (136, 136), 'max_iter': 2500}
+scores: Scores(balanced_accuracy=0.5897260273972603, precision=0.4, recall=0.2, f1=0.26666666666666666, roc_auc=0.5897260273972602)
+
+info: 9
+selected features: [ 39 243 328 363 387]
+hyperparameters: {'activation': 'tanh', 'batch_size': 10, 'hidden_layer_sizes': (68, 68), 'max_iter': 2500}
+scores: Scores(balanced_accuracy=0.5726027397260274, precision=0.2, recall=0.2, f1=0.20000000000000004, roc_auc=0.5726027397260274)
+
+score averages:
+average balanced accuracy: 0.541563566896248
+average precision: 0.2717857142857143
+average recall: 0.11454545454545455
+average f1 score: 0.14501031991744068
+average roc auc score: 0.541563566896248
+feature counts: Counter({39: 6, 387: 5, 425: 4, 337: 3, 455: 3, 461: 3, 64: 2, 454: 2, 329: 2, 60: 2, 243: 2, 276: 2, 363: 2, 459: 1, 457: 1, 117: 1, 226: 1, 51: 1, 121: 1, 31: 1, 38: 1, 367: 1, 115: 1, 348: 1, 328: 1})
+feature stability score: 0.5555555555555556
+
+
+training results for model: nn, selector function: f_classif, percentile: 5
+info: 0
+selected features: [ 19  26  31  54  73  96 117 118 122 151 154 155 192 250 253 254 268 293
+ 350 351 354 355 356 409]
+hyperparameters: {'activation': 'tanh', 'batch_size': 100, 'hidden_layer_sizes': (16,), 'max_iter': 2500}
+scores: Scores(balanced_accuracy=0.5261904761904762, precision=0.125, recall=0.1, f1=0.11111111111111112, roc_auc=0.5261904761904762)
+
+info: 1
+selected features: [ 19  26  54  96 117 122 154 155 156 192 253 254 255 268 293 350 351 354
+ 355 356 409 435 438 441]
+hyperparameters: {'activation': 'logistic', 'batch_size': 10, 'hidden_layer_sizes': (16,), 'max_iter': 2500}
+scores: Scores(balanced_accuracy=0.47619047619047616, precision=0.0, recall=0.0, f1=0.0, roc_auc=0.47619047619047616)
+
+info: 2
+selected features: [ 19  26  31  54  73  96 114 116 117 122 151 154 155 192 249 250 253 293
+ 350 351 354 355 356 409]
+hyperparameters: {'activation': 'tanh', 'batch_size': 10, 'hidden_layer_sizes': (11,), 'max_iter': 2500}
+scores: Scores(balanced_accuracy=0.6625850340136055, precision=0.26666666666666666, recall=0.4, f1=0.32, roc_auc=0.6625850340136055)
+
+info: 3
+selected features: [ 19  24  26  54  96 107 117 122 151 154 155 192 217 250 253 268 293 320
+ 350 351 354 355 356 409]
+hyperparameters: {'activation': 'tanh', 'batch_size': 50, 'hidden_layer_sizes': (11, 11), 'max_iter': 2500}
+scores: Scores(balanced_accuracy=0.4657534246575342, precision=0.0, recall=0.0, f1=0.0, roc_auc=0.4657534246575342)
